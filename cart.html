@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cart - DIVINITY Store</title>
+    <link rel="icon" type="image/x-icon" href="./images/rune.ico">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<header>
+    <a id="sign" href="index.html">
+        <img src="./images/signwithrune.png" alt="Return to Homepage" style="width: 170px; height: 170px; position:absolute; top:15px; left:30px;">
+    </a>
+<img src="./images/titleboard.png" alt="DIVINITY Merch Store" style="width: 25%;">
+    <nav>
+        <a id="nav" href="index.html">
+            <img src="./images/homebutton.png" alt=">Return Home" style="width: 8%;"></a>
+        <a id="nav" href="shop.html">
+            <img src="./images/shopbutton.png" alt=">View Item Shop" style="width: 8%;"></a>
+        <a id="nav" href="about.html">
+            <img src="./images/aboutusbutton.png" alt=">Talk with Merchant" style="width: 8%;"></a>
+        <a id="nav" href="cart.html">
+            <img src="./images/cartselected.png" alt=">Buy Selected Items" style="width: 8%;"></a>
+    </nav>
+</header>
+
+<body background="./images/stonetexturebackground.jpg" style="margin-right: auto; margin-left: auto;">
+    <main>
+        <section style="background-image: url('images/darkstone.jpg'); outline-color: silver;">
+            <form action="purchasecomplete.html">
+                <br>
+                <label for="name">What is your name Traveller?</label><br>
+                <input type="text" id="name" name="name" placeholder="Your Name" required><br>
+                <br>
+                <label for="email">How can I contact you via magic stone? (What is your email?)</label><br>
+                <input type="email" id="email" name="email" placeholder="Your Email" required><br>
+                <br>
+                <label for="username">How is your name spoken in the songs and legends? (What is your username?)</label><br>
+                <input type="text" id="username" name="username" placeholder="Your Username" required><br>
+                <br>
+                <label for="password">What is the secret spell you use to activate your magic? (What is your password?)</label><br>
+                <input type="password" id="password" name="password" placeholder="Your Password" required><br>
+                <br>
+                <label for="password">Are you sure that is the correct spell? (Confirm password)</label><br>
+                <input type="password" id="password" name="password" placeholder="Repeat Password" required><br>
+                <br>
+                <label for="gender">If I may ask, what gender might you be? (What is your gender?)</label><br>
+                <input list="gender" name="gender" placeholder="Your Gender" required>
+                <datalist id="gender">
+                    <option value="Male"></option>
+                    <option value="Female"></option>
+                    <option value="Non-Binary"></option>
+                    <option value="Other"></option>
+                </datalist><br>
+                <br>
+                <label for="address">Where do you live? (What is your address?)</label>
+                <input type="text" id="address" name="address" placeholder="Address" required><br>
+                <label for="suburb">What town is your home in? (What is your suburb?)</label>
+                <input type="text" id="suburb" name="suburb" placeholder="Suburb" required><br>
+                <label for="state">Under which kings land do you live? (What state do you live in?)</label>
+                <input type="text" id="state" name="state" placeholder="State" required><br>
+                <label for="post">Do you know of the number associated with town? (What is your postcode?)</label>
+                <input type="text" id="post" name="post" placeholder="Postcode" minlength="4" maxlength="4" pattern="[1-9]{4}" required><br>
+                <br>
+                <label for="phone">What number can I use to contact you via the communication spell? (What is your phone number?)</label><br>
+                <input type="tel" id="phone" name="phone" placeholder="Phone Number" pattern="[1-9]" required><br>
+                <br>
+                <input type="submit" value="Submit Answers*">
+                <input type="reset" value="Clear Answers">
+            </form>
+            <p style="color: darkgray;">*None of the answers on this form will be saved. This is purely for an educational project.</p>
+        </section>
+    </main>
+</body>
+
+</html>

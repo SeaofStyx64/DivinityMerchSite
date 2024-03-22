@@ -1,6 +1,7 @@
 body {
     background-color:#522e20;
     text-align: center;
+    background-attachment: fixed;
 }
 
 main {
@@ -30,8 +31,9 @@ header {
     outline-width: 5px;
   }
 
-#sign:hover {
-    opacity: 80%;
+#sale:hover {
+  opacity: 75%;
+  text-decoration: none;
 }
 
 table {
@@ -56,4 +58,29 @@ section {
   outline-style: groove; 
   outline-width: thick; 
   outline-color: chocolate;
+}
+
+#wares a {
+  text-decoration: none;
+  display: block;
+  color: inherit;
+}
+
+td:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+button {
+  border: groove;
+  border-color: greenyellow;
+  border-width: thick;
+  color: green;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
 }

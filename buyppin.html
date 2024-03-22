@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>>Buy Pin? - DIVINITY Store</title>
+    <link rel="icon" type="image/x-icon" href="./images/rune.ico">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<header>
+    <a id="sign" href="index.html">
+        <img src="./images/signwithrune.png" alt="Return to Homepage" style="width: 170px; height: 170px; position:absolute; top:15px; left:30px;">
+    </a>
+<img src="./images/titleboard.png" alt="DIVINITY Merch Store" style="width: 25%;">
+    <nav>
+        <a id="nav" href="index.html">
+            <img src="./images/homebutton.png" alt=">Return Home" style="width: 8%;"></a>
+        <a id="nav" href="shop.html">
+            <img src="./images/shopbutton.png" alt=">View Item Shop" style="width: 8%;"></a>
+        <a id="nav" href="about.html">
+            <img src="./images/aboutusbutton.png" alt=">Talk with Merchant" style="width: 8%;"></a>
+        <a id="nav" href="cart.html">
+            <img src="./images/cartbutton.png" alt=">Buy Selected Items" style="width: 8%;"></a>
+    </nav>
+</header>
+
+<body background="./images/stonetexturebackground.jpg">
+    <main>
+    <section style="background-image: url('images/darkstone.jpg');"> 
+        <img src="./images/Pure Rune Pin.png" style="width: 20%; outline: auto; outline-width: thick; outline-color: black; margin-top: 50px;">
+        <h1>Pure Rune - Pin</h1>
+        <h1 style="color: gold;">$3</h1>
+        <button type="button" onclick="myFunction()">Add to Cart?*</button>
+        <h1 id=demo  style="color: rgb(73, 229, 73);"></h1>
+        <script>
+            function myFunction() {
+              document.getElementById("demo").innerHTML = "> Item Added To Inventory! (not really but you get the idea) <";
+            }
+        </script>
+        <p  style="margin-top: 25px; color: darkgray;">*This Purchase is not real</p>
+    </section>
+    </main>
+</body>
+
+</html>
