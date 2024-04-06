@@ -84,3 +84,15 @@ button {
   margin: 4px 2px;
   cursor: pointer;
 }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+  width: 50%;
+}
+
+.center:hover {
+  opacity: 50%;
+}

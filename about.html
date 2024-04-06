@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>About Us - DIVINITY Store</title>
+    <link rel="icon" type="image/x-icon" href="./images/rune.ico">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<header>
+    <a id="sign" href="index.html">
+        <img src="./images/signwithrune.png" alt="Return to Homepage" style="width: 170px; height: 170px; position:absolute; top:15px; left:30px;">
+    </a>
+<img src="./images/titleboard.png" alt="DIVINITY Merch Store" style="width: 25%;">
+    <nav>
+        <a id="nav" href="index.html">
+            <img src="./images/homebutton.png" alt=">Return Home" style="width: 8%;"></a>
+        <a id="nav" href="shop.html">
+            <img src="./images/shopbutton.png" alt=">View Item Shop" style="width: 8%;"></a>
+        <a id="nav" href="about.html">
+            <img src="./images/aboutusselected.png" alt=">Talk with Merchant" style="width: 8%;"></a>
+        <a id="nav" href="cart.html">
+            <img src="./images/cartbutton.png" alt=">Buy Selected Items" style="width: 8%;"></a>
+    </nav>
+</header>
+
+<body background="./images/stonetexturebackground.jpg" style="margin-right: auto; margin-left: auto;">
+    <main>
+        <section style="background-image: url('images/darkstone.jpg'); padding: 50px 50px;">
+            <button id="button0" style="display: block; margin-left: auto; margin-right: auto; border: groove; border-color: red; border-width: thick; color: white; padding: 10px 15px; background-color: black;">Talk To Merchant?</button>
+            <img id="dialogue0" src="./images/MerchantAboutUs1.png" style="display: none; margin-left: auto; margin-right: auto;">
+            <script>
+               const button0 = document.getElementById("button0");
+               const dialogue0 = document.getElementById("dialogue0"); 
+               button0.addEventListener("click", () => { 
+                  dialogue0.style.display = "block"; 
+                  button1.style.display = "block";
+                  button0.style.display = "none";
+               });
+            </script>
+            <button id="button1" style="display: none; margin-left: auto; margin-right: auto; border: groove; border-color: red; border-width: thick; color: white; padding: 10px 15px; background-color: black;">Continue</button>
+            <img id="dialogue1" src="./images/MerchantAboutUs2.png" style="display: none; margin-left: auto; margin-right: auto;">
+            <script>
+               const button1 = document.getElementById("button1");
+               const dialogue1 = document.getElementById("dialogue1"); 
+               button1.addEventListener("click", () => { 
+                  dialogue1.style.display = "block"; 
+                  button2.style.display = "block";
+                  dialogue0.style.display = "none"; 
+                  button1.style.display = "none";
+               });
+            </script>
+            <button id="button2" style="display: none; margin-left: auto; margin-right: auto; border: groove; border-color: red; border-width: thick; color: white; padding: 10px 15px; background-color: black;">Continue</button>
+            <img id="dialogue2" src="./images/MerchantAboutUs3.png" style="display: none; margin-left: auto; margin-right: auto;">
+            <script>
+               const button2 = document.getElementById("button2");
+               const dialogue2 = document.getElementById("dialogue2"); 
+               button2.addEventListener("click", () => { 
+                  dialogue2.style.display = "block"; 
+                  button3.style.display = "block";
+                  dialogue1.style.display = "none";
+                  button2.style.display = "none";
+               });
+            </script>
+            <button id="button3" style="display: none; margin-left: auto; margin-right: auto; border: groove; border-color: red; border-width: thick; color: white; padding: 10px 15px; background-color: black;">Continue</button>
+            <img id="dialogue3" src="./images/MerchantAboutUs4.png" style="display: none; margin-left: auto; margin-right: auto;">
+            <script>
+               const button3 = document.getElementById("button3");
+               const dialogue3 = document.getElementById("dialogue3"); 
+               button3.addEventListener("click", () => { 
+                  dialogue3.style.display = "block"; 
+                  button4.style.display = "block";
+                  dialogue2.style.display = "none"; 
+                  button3.style.display = "none";
+               });
+            </script>
+            <button id="button4" style="display: none; margin-left: auto; margin-right: auto; border: groove; border-color: red; border-width: thick; color: white; padding: 10px 15px; background-color: black;">Continue</button>
+            <img id="dialogue4" src="./images/MerchantAboutUs5.png" style="display: none; margin-left: auto; margin-right: auto;">
+            <script>
+               const button4 = document.getElementById("button4");
+               const dialogue4 = document.getElementById("dialogue4"); 
+               button4.addEventListener("click", () => { 
+                  dialogue4.style.display = "block"; 
+                  button5.style.display = "block";
+                  dialogue3.style.display = "none"; 
+                  button4.style.display = "none";
+               });
+            </script>
+            <button id="button5" style="display: none; margin-left: auto; margin-right: auto; border: groove; border-color: red; border-width: thick; color: white; padding: 10px 15px; background-color: black;">Continue</button>
+            <img id="dialogue5" src="./images/MerchantAboutUs6.png" style="display: none; margin-left: auto; margin-right: auto;">
+            <script>
+               const button5 = document.getElementById("button5");
+               const dialogue5 = document.getElementById("dialogue5"); 
+               button5.addEventListener("click", () => { 
+                  dialogue5.style.display = "block"; 
+                  button6.style.display = "block";
+                  dialogue4.style.display = "none"; 
+                  button5.style.display = "none";
+               });
+            </script>
+            <button id="button6" style="display: none; margin-left: auto; margin-right: auto; border: groove; border-color: red; border-width: thick; color: white; padding: 10px 15px; background-color: black;">Continue</button>
+            <img id="dialogue6" src="./images/MerchantAboutUs7.png" style="display: none; margin-left: auto; margin-right: auto;">
+            <script>
+               const button6 = document.getElementById("button6");
+               const dialogue6 = document.getElementById("dialogue6"); 
+               button6.addEventListener("click", () => { 
+                  dialogue6.style.display = "block"; 
+                  button7.style.display = "block";
+                  dialogue5.style.display = "none"; 
+                  button6.style.display = "none";
+               });
+            </script>
+            <button id="button7" style="display: none; margin-left: auto; margin-right: auto; border: groove; border-color: red; border-width: thick; color: white; padding: 10px 15px; background-color: black;">Continue</button>
+            <img id="dialogue7" src="./images/MerchantAboutUs8.png" style="display: none; margin-left: auto; margin-right: auto;">
+            <script>
+               const button7 = document.getElementById("button7");
+               const dialogue7 = document.getElementById("dialogue7"); 
+               button7.addEventListener("click", () => { 
+                  dialogue7.style.display = "block"; 
+                  button8.style.display = "block";
+                  dialogue6.style.display = "none"; 
+                  button7.style.display = "none";
+               });
+            </script>
+            <button id="button8" style="display: none; margin-left: auto; margin-right: auto; border: groove; border-color: red; border-width: thick; color: white; padding: 10px 15px; background-color: black;">Continue</button>
+            <img id="dialogue8" src="./images/MerchantAboutUs9.png" style="display: none; margin-left: auto; margin-right: auto;">
+            <script>
+               const button8 = document.getElementById("button8");
+               const dialogue8 = document.getElementById("dialogue8"); 
+               button8.addEventListener("click", () => { 
+                  dialogue8.style.display = "block"; 
+                  button9.style.display = "block";
+                  dialogue7.style.display = "none"; 
+                  button8.style.display = "none";
+               });
+            </script>
+            <button id="button9" style="display: none; margin-left: auto; margin-right: auto; border: groove; border-color: red; border-width: thick; color: white; padding: 10px 15px; background-color: black;">Continue</button>
+            <img id="dialogue9" src="./images/MerchantAboutUs10.png" style="display: none; margin-left: auto; margin-right: auto;">
+            <script>
+               const button9 = document.getElementById("button9");
+               const dialogue9 = document.getElementById("dialogue9"); 
+               button9.addEventListener("click", () => { 
+                  dialogue9.style.display = "block"; 
+                  button10.style.display = "block";
+                  dialogue8.style.display = "none"; 
+                  button9.style.display = "none";
+               });
+            </script>
+            <button id="button10" style="display: none; margin-left: auto; margin-right: auto; border: groove; border-color: red; border-width: thick; color: white; padding: 10px 15px; background-color: black;">Continue</button>
+            <img id="dialogue10" src="./images/MerchantAboutUs11.png" style="display: none; margin-left: auto; margin-right: auto;">
+            <script>
+               const button10 = document.getElementById("button10");
+               const dialogue10 = document.getElementById("dialogue10"); 
+               button10.addEventListener("click", () => { 
+                  dialogue10.style.display = "block"; 
+                  button11.style.display = "block";
+                  dialogue9.style.display = "none"; 
+                  button10.style.display = "none";
+               });
+            </script>
+            <button id="button11" style="display: none; margin-left: auto; margin-right: auto; border: groove; border-color: red; border-width: thick; color: white; padding: 10px 15px; background-color: black;">Continue</button>
+            <img id="dialogue11" src="./images/MerchantAboutUs12.png" style="display: none; margin-left: auto; margin-right: auto;">
+            <script>
+               const button11 = document.getElementById("button11");
+               const dialogue11 = document.getElementById("dialogue11"); 
+               button11.addEventListener("click", () => { 
+                  dialogue11.style.display = "block"; 
+                  button12.style.display = "block";
+                  dialogue10.style.display = "none"; 
+                  button11.style.display = "none";
+               });
+            </script>
+            <br>
+            <a id="button12" href="index.html" style="display: none; margin-left: auto; margin-right: auto; border: groove; border-color: red; border-width: thick; color: white; padding: 1px 5px; background-color: black; text-decoration: none;">
+            <p>Return Home</p>
+            </a>
+        </section>
+    </main>
+</body>
+
+</html>
