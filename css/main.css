@@ -52,6 +52,8 @@ tr {
   outline-style: groove; 
   outline-width: thick; 
   outline-color: silver;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 section {
